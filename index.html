@@ -2,94 +2,185 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<title>Cảnh báo BẮT CÓC ONLINE</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cảnh báo các hình thức lừa đảo online</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
-body{font-family:Arial;background:#f2f4f7;margin:0}
-header{background:#b71c1c;color:#fff;padding:25px;text-align:center}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px;padding:20px}
-.card{background:#fff;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
-.card img{width:100%;height:180px;object-fit:cover;border-radius:10px 10px 0 0}
-.card h3{padding:10px;color:#b71c1c}
-.card p{padding:0 10px 15px;font-size:14px;line-height:1.6}
-#chat{position:fixed;right:20px;bottom:20px;width:320px;background:#fff;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,.3)}
-#chat h4{background:#b71c1c;color:#fff;margin:0;padding:10px;border-radius:10px 10px 0 0;text-align:center}
-#msgs{height:220px;overflow:auto;padding:10px;font-size:14px}
-#chat input{width:75%;padding:8px;border:none;border-top:1px solid #ccc}
-#chat button{width:25%;border:none;background:#b71c1c;color:#fff}
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+header {
+    background: #2e3b4e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+    padding: 20px;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card h3 {
+    margin: 12px;
+    color: #2e3b4e;
+}
+.card p {
+    margin: 0 12px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+footer {
+    background: #2e3b4e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
 </style>
+
 </head>
 <body>
 
 <header>
-<h1>TẤT CẢ CÁC HÌNH THỨC BẮT CÓC ONLINE</h1>
-<p>Lừa đảo tâm lý – Giả bắt cóc – Ép chuyển tiền</p>
+    <h1>CẢNH BÁO CÁC HÌNH THỨC LỪA ĐẢO ONLINE</h1>
+    <p>Tổng hợp các thủ đoạn lừa đảo trực tuyến phổ biến – Hãy cảnh giác!</p>
 </header>
 
 <div class="grid">
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1556745753-b2904692b3cd">
-<h3>Giả danh Công an – Viện kiểm sát</h3>
-<p>Đe dọa điều tra, yêu cầu cách ly và ép chuyển tiền.</p>
+  <!-- Giả mạo công an -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1584754578823-8459b78d11b8">
+    <h3>Giả mạo cơ quan Công an / Tòa án</h3>
+    <p>Gọi điện nói bạn liên quan vụ án, yêu cầu chuyển tiền để “giải quyết” hoặc “kiểm tra”.</p>
+  </div>
+
+  <!-- Giả trúng thưởng -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1600180758895-c516484c7c7c">
+    <h3>Thông báo trúng thưởng</h3>
+    <p>Thông báo trúng xe, tiền mặt, điện thoại… rồi yêu cầu nạp phí để nhận giải.</p>
+  </div>
+
+  <!-- Lừa đầu tư tiền ảo -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1611078488405-35d176ec3f23">
+    <h3>Lừa đảo đầu tư / tiền ảo</h3>
+    <p>Mời gọi đầu tư với lãi suất cao rồi “mất sàn”, bạn không rút được tiền.</p>
+  </div>
+
+  <!-- Lừa việc làm -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
+    <h3>Lừa việc làm online</h3>
+    <p>Hứa tuyển dụng với mức lương cao, yêu cầu nộp lệ phí hồ sơ trước.</p>
+  </div>
+
+  <!-- Lừa tình cảm -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1">
+    <h3>Lừa tình cảm / Romance scam</h3>
+    <p>Tạo mối quan hệ, sau đó xin tiền/chi phí đi lại, chữa bệnh… rồi biến mất.</p>
+  </div>
+
+  <!-- Phishing link -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1519241047957-be31d7379a5d">
+    <h3>Gửi link giả (Phishing)</h3>
+    <p>Gửi link giả mạo ngân hàng, yêu cầu đăng nhập để đánh cắp mật khẩu/OTP.</p>
+  </div>
+
+  <!-- Hack tài khoản -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1550951988-507fa6b2c8f7">
+    <h3>Hack Facebook / Zalo rồi tống tiền</h3>
+    <p>Khai thác tài khoản của bạn, nhắn tin đòi nợ hoặc làm xấu bạn.</p>
+  </div>
+
+  <!-- SMS giả -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1517430816045-df4b7de01f25">
+    <h3>SMS giả mạo ngân hàng</h3>
+    <p>Nhắn SMS trúng thưởng hoặc bất thường, kèm link yêu cầu đăng nhập.</p>
+  </div>
+
+  <!-- Bảo hiểm / y tế giả -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1586773860419-d37f0a041f5f">
+    <h3>Giả bảo hiểm / hỗ trợ y tế</h3>
+    <p>Giả chương trình bảo hiểm, yêu cầu đóng phí hoặc cung cấp thông tin cá nhân.</p>
+  </div>
+
+  <!-- Trung gian mua bán -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f">
+    <h3>Mua bán trực tuyến lừa đảo</h3>
+    <p>Đăng sản phẩm ảo, nhận tiền rồi biến mất, không giao hàng.</p>
+  </div>
+
+  <!-- Thông báo virus / cảnh báo kỹ thuật -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1581093458403-35aa43cf8e74">
+    <h3>Thông báo Virus / Hỗ trợ kỹ thuật giả</h3>
+    <p>Cảnh báo máy tính bị nhiễm, yêu cầu cài phần mềm từ xa rồi chiếm quyền.</p>
+  </div>
+
+  <!-- Chat support -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1603570419995-73cdb01ab0f2">
+    <h3>Cho vay / hỗ trợ tài chính giả</h3>
+    <p>Quảng cáo cho vay nhanh, yêu cầu phí trước, sau đó mất liên lạc.</p>
+  </div>
+
+  <!-- Thủ đoạn khác -->
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1521790945508-bf2a36314e85">
+    <h3>Đăng tuyển lao động / xuất khẩu lao động giả</h3>
+    <p>Hứa việc làm nước ngoài không cần visa, nhận tiền rồi biến mất.</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1531497865144-0469fb4c0bfb">
+    <h3>Tuyển dụng hợp tác bán hàng ảo</h3>
+    <p>Hỏi bạn đăng ký, rồi lợi dụng để trừ phí, trừ tiền không rõ lý do.</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1581091215367-3910c61f0e74">
+    <h3>Thiết lập tài khoản fake</h3>
+    <p>Tạo tài khoản giả danh người thân để vay mượn, xin tiền khẩn cấp.</p>
+  </div>
+
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9">
-<h3>Dàn dựng bắt cóc người thân</h3>
-<p>Giả giọng con cái/người thân để đòi tiền chuộc.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1c7">
-<h3>Chiếm đoạt Facebook, Zalo</h3>
-<p>Dùng hình ảnh riêng tư đe dọa như đang bị khống chế.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7">
-<h3>Gửi video/hình ảnh giả</h3>
-<p>Dùng video dàn dựng để gây hoảng loạn.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e">
-<h3>Ép giữ bí mật tuyệt đối</h3>
-<p>Đe dọa nếu báo Công an sẽ gây nguy hiểm.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1605902711622-cfb43c44367f">
-<h3>Ép chuyển tiền gấp</h3>
-<p>Liên tục gọi điện, không cho suy nghĩ.</p>
-</div>
-
-</div>
-
-<div id="chat">
-<h4>ChatGPT – Phân tích tình huống</h4>
-<div id="msgs"><p><b>AI:</b> Mô tả tình huống nghi ngờ.</p></div>
-<input id="txt" placeholder="Nhập tình huống...">
-<button onclick="send()">Gửi</button>
-</div>
-
-<script>
-async function send(){
-  let t=document.getElementById("txt");
-  if(!t.value)return;
-  let m=document.getElementById("msgs");
-  m.innerHTML+=`<p><b>Bạn:</b> ${t.value}</p>`;
-  let res=await fetch("https://LINK-SERVER-CUA-BAN/chat",{
-    method:"POST",
-    headers:{"Content-Type":"application/json"},
-    body:JSON.stringify({message:t.value})
-  });
-  let data=await res.json();
-  m.innerHTML+=`<p><b>AI:</b> ${data.reply}</p>`;
-  t.value="";
-  m.scrollTop=m.scrollHeight;
-}
-</script>
+<footer>
+  ⚠️ Cảnh giác với mọi lời gọi / tin nhắn không chính thống.  
+  Không cung cấp OTP, mật khẩu, số tài khoản cho bất kỳ ai.  
+  📞 Khi nghi ngờ bị lừa đảo, liên hệ ngay cơ quan chức năng.
+</footer>
 
 </body>
 </html>
